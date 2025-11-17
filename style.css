@@ -186,6 +186,13 @@ body {
   gap: 48px;
 }
 
+@media screen and (max-width: 1300px) {
+  .section--results {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .section__title {
   color: #fff;
   font-family: Chakra Petch;
@@ -204,3 +211,4 @@ body {
   background-color: #fff;
   color: #1875e8;
 }
+
